@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    position: absolute;
+    font-size: clamp(20px, 5vw, 50px);
+    top: 2px;
+    color: #2c63ff;
+}
+
+.userdetail {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h4 {
+    position: absolute;
+    font-size: clamp(25px, 4vw, 50px);
+    top: 52px;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #210070;
+}
+
+.card-container {
+    margin-top: 30px;
+    margin: 50px;
+    background: #596e9e;
+    border-radius: 10px;
+    color: seashell;
+    text-align: center;
+    width: auto;
+    padding: 20px;
+    /* align-items: center; */
+}
+
+.round {
+    border: 2px;
+    border-radius: 30%;
+}
+
+.list-container {
+    margin-top: 30px
+}
+
+.name-container {
+    margin: 10px 0;
+}
+
+.wrapper {
+    position: absolute;
+    top: 130px;
+    left: 4%;
+    /* margin: 10px 0; */
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 130px;
+    background: #2c63ff;
+    /* padding: 50px 0px; */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.125);
+}
+
+.wrapper ul {
+    display: flex;
+    /* text-align: center; */
+    flex-direction: column;
+}
+
+.wrapper ul li {
+    padding: 5px 30px;
+    width: 18px;
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center
+}
+
+.wrapper ul li:hover {
+    background: #1944bd;
+}
